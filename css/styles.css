@@ -1,0 +1,140 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+#title {
+  background-color: #ff4c68;
+  color: #ffffff;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+h3 {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+p {
+  color: #8f8f8f;
+  font-weight: 400;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* download button */
+.Download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title-image */
+.title-image {
+  width: 60%;
+  -ms-transform: rotate(25deg); /* IE 9 */
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* features */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+.feature-box {
+  padding: 5%;
+  text-align: center;
+}
+
+/* testimonials */
+#testimonials {
+  background-color: #ef8172;
+  color: #ffffff;
+
+  text-align: center;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* press */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+}
+.pricing-colomn {
+  padding: 3% 2%;
+}
+
+/* call to action */
+#cta {
+  background-color: #ff4c68;
+  color: #ffffff;
+  padding: 7% 15% 5%;
+  text-align: center;
+}
+
+/* footer */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon {
+  margin: 0 10px 20px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    -ms-transform: rotate(0); /* IE 9 */
+    transform: rotate(0);
+  }
+}
